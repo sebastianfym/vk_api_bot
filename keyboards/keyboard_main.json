@@ -1,0 +1,35 @@
+{
+  "one_time": false,
+  "buttons": [
+    [{
+      "action": {
+        "type": "text",
+        "label": "выпечка"
+      },
+      "color": "positive"
+    },
+    {
+      "action": {
+        "type": "text",
+        "label": "десерты"
+      },
+      "color": "positive"
+    },
+    {
+      "action": {
+        "type": "text",
+        "label": "пироги"
+      },
+      "color": "positive"
+    }],
+
+    [{
+      "action": {
+        "type": "callback",
+        "payload": "{}",
+        "label": "Back"
+      },
+      "color": "default"
+    }]
+  ]
+}
